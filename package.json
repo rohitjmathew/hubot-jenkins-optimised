@@ -1,6 +1,6 @@
 {
   "name": "hubot-jenkins-optimised",
-  "description": "Jenkins integration for Hubot with multiple server support and fixes to build jenkins jobs with",
+  "description": "Jenkins integration for Hubot with multiple server support and build with parameters",
   "version": "1.0.0",
   "author": "Rohit Mathew",
   "license": "MIT",
