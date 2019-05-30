@@ -2,6 +2,21 @@
 
 Jenkins integration for Hubot with multiple server support with the use of access tokens instead of password authentication. This integration also fixes the build with parameters which wasn't working in [hubot-jenkins-enhanced](https://github.com/codeandfury/hubot-jenkins-enhanced).
 
+### Install
+In hubot project repository, run:
+
+```
+npm install hubot-jenkins-optimised --save
+```
+
+Then add `hubot-jenkins-optimised` to your `external-scripts.json`:
+
+```json
+[
+  "hubot-jenkins-optimised"
+]
+```
+
 ### Configuration
 Auth should be in the "user:access-token" format.\
 You can find your access token at $JENKINS_URL/me/configure
