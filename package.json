@@ -1,0 +1,27 @@
+{
+  "name": "hubot-jenkins-optimised",
+  "description": "Jenkins integration for Hubot with multiple server support and fixes to build jenkins jobs with",
+  "version": "1.0.0",
+  "author": "Rohit Mathew",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-jenkins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rohitjmathew/hubot-jenkins-optimised.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rohitjmathew/hubot-jenkins-optimised/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {},
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  }
+}
